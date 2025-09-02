@@ -73,7 +73,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 relative overflow-hidden">
-      {/* Animated background elements */}
+    
       <div className="absolute inset-0 z-0">
         {[...Array(15)].map((_, i) => (
           <motion.div
@@ -111,7 +111,7 @@ export default function Home() {
           initial="hidden"
           animate="visible"
         >
-          {/* Animated border */}
+          
           <div className="absolute inset-0 rounded-lg overflow-hidden z-0">
             <motion.div 
               className="absolute -inset-10 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-20"
@@ -176,7 +176,6 @@ export default function Home() {
               </motion.button>
             </motion.div>
 
-            {/* Scrollable table for small screens */}
             <motion.div 
               className="overflow-x-auto rounded-lg"
               variants={itemVariants}
@@ -213,7 +212,7 @@ export default function Home() {
                 <tbody>
                   <AnimatePresence>
                     {isLoading ? (
-                      // Loading skeleton with animation
+                     
                       Array.from({ length: 5 }).map((_, index) => (
                         <motion.tr
                           key={index}
@@ -267,7 +266,6 @@ export default function Home() {
               </table>
             </motion.div>
 
-            {/* Pagination */}
             <motion.div 
               className="mt-6 flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0 text-black"
               variants={itemVariants}

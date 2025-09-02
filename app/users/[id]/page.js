@@ -13,7 +13,6 @@ export default function UserDetails({ params }) {
             .then((data) => setUser(data));
     }, [params.id]);
 
-    // Beautiful loading animation
     if (!user)
         return (
             <div className="min-h-screen flex justify-center items-center bg-[#f3f4f6]">
@@ -55,10 +54,9 @@ export default function UserDetails({ params }) {
                 </div>
 
 
-                {/* User Info Sections */}
                 <div className="space-y-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        {/* Personal Information */}
+                      
                         <motion.section
                             initial={{ x: -50, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
@@ -102,7 +100,7 @@ export default function UserDetails({ params }) {
                             </div>
                         </motion.section>
 
-                        {/* Address */}
+                    
                         <motion.section
                             initial={{ y: 50, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
@@ -127,7 +125,6 @@ export default function UserDetails({ params }) {
                         </motion.section>
                     </div>
 
-                    {/* Company */}
                     <motion.section
                         initial={{ x: 50, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
