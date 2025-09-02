@@ -1,28 +1,29 @@
 # My Dashboard App
 
-Responsive dashboard application built with [your tech stack — e.g. React, Next.js, Tailwind CSS, Chart.js], deployed on Vercel.  
-Visit it live: [https://my-dashboard-app-five.vercel.app](https://my-dashboard-app-five.vercel.app)
+A modern, interactive dashboard application built with **Next.js**, **Framer Motion**, and **Three.js** — combining smooth UI animations with stunning 3D elements.  
+Deployed on Vercel: [https://my-dashboard-app-five.vercel.app](https://my-dashboard-app-five.vercel.app)
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- Interactive and responsive layout    
-- Fully deployed and accessible  
+- 🎨 **Smooth Animations** with [Framer Motion](https://www.framer.com/motion/)  
+- 🌀 **3D Visualizations** powered by [Three.js](https://threejs.org/)    
+- ⚡ Fast and fully deployed on Vercel  
 
 ---
 
 ## 🧱 Tech Stack
 
-- **Frontend**: React (or Next.js)  
-- **Styling**: Tailwind CSS (or CSS Modules, Styled Components)  
-- **State management**: Context API
-- **Data fetching**: `fetch`
+- **Framework**: Next.js (React-based)  
+- **Animations**: Framer Motion  
+- **3D Graphics**: Three.js  
+- **Styling**: Tailwind CSS  
 - **Deployment**: Vercel  
 
 ---
 
-## 📦 Installation & Local Setup
+## 📦 Installation & Setup
 
 1. Clone the repo  
    ```bash
